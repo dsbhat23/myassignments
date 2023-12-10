@@ -1,0 +1,12 @@
+#write python code for solve this. if a list contains 1 as well as 'mango' than output "wow" otherwise output will be 'blah'?
+
+def check_list(lst):
+    if 1 in lst and 'mango' in lst:
+        return "wow"
+    else:
+        return "blah"
+
+# Example usage:
+my_list = [1, 2, 'apple', 'mango', 'orange']
+result = check_list(my_list)
+print(result)
