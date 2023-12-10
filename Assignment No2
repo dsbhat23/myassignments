@@ -1,0 +1,7 @@
+contains_vowel = lambda s: any(char.lower() in 'aeiou' for char in s)
+
+l = ['sky', 'apple', 'fly', 'mango']
+
+result = list(filter(contains_vowel, l))
+
+print(result)
